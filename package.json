@@ -1,0 +1,25 @@
+{
+  "name": "hitman-quiz",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Timed quiz website with admin panel and Telegram admin bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.0",
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
